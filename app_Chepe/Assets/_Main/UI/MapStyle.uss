@@ -1,0 +1,7 @@
+:root {
+}
+
+.MapRegions {
+    position: absolute;
+    width: auto;
+}

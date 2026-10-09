@@ -1,0 +1,13 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_Main/UI/MapStyle.uss?fileID=7433441132597879392&amp;guid=c88e1717e91a15346b180ce721dccaea&amp;type=3#MapStyle"/>
+    <ui:VisualElement name="CeneralContainer" style="flex-grow: 1;">
+        <ui:VisualElement name="MapContainer" style="flex-grow: 1; width: 100%; aspect-ratio: 0.4737;">
+            <ui:Button text="Button" name="Insular" class="MapRegions" style="background-image: url(&quot;project://database/Assets/_Main/Sprites/RegionInsular.png?fileID=2800000&amp;guid=6f4f9f651486804498104bd07a48eaf7&amp;type=3#RegionInsular&quot;); background-color: rgba(255, 255, 255, 0); top: 21%; left: 2%; width: 23%; height: 11%;"/>
+            <ui:Button text="Button" name="Caribe" class="MapRegions" style="background-image: url(&quot;project://database/Assets/_Main/Sprites/RegionCaribe.png?fileID=2800000&amp;guid=21457f62a513a134eadaa79e7dde830d&amp;type=3#RegionCaribe&quot;); background-color: rgba(255, 255, 255, 0); top: 18.5%; left: 15%; width: 50%; height: 24%; aspect-ratio: auto;"/>
+            <ui:Button text="Button" name="Pacifica" class="MapRegions" style="background-image: url(&quot;project://database/Assets/_Main/Sprites/RegionPacifica.png?fileID=2800000&amp;guid=f7f8bf400afaf1e4a9372140360602a3&amp;type=3#RegionPacifica&quot;); background-color: rgba(255, 255, 255, 0); top: 37.5%; height: 26%; width: 54%; left: -11.5%;"/>
+            <ui:Button text="Button" name="Andina" class="MapRegions" style="background-image: url(&quot;project://database/Assets/_Main/Sprites/RegionAndina.png?fileID=2800000&amp;guid=2c4cef9b05d406147ae6a3d6e7c87ac0&amp;type=3#RegionAndina&quot;); background-color: rgba(255, 255, 255, 0); top: 25%; left: -12%; width: 90%; height: 42%;"/>
+            <ui:Button text="Button" name="Orinoquia" class="MapRegions" style="background-image: url(&quot;project://database/Assets/_Main/Sprites/RegionOrinoquia.png?fileID=2800000&amp;guid=b16c5c093d5fcd649af6796815dc2b5d&amp;type=3#RegionOrinoquia&quot;); background-color: rgba(255, 255, 255, 0); top: 38%; left: 42%; width: 51%; height: 23%;"/>
+            <ui:Button text="Button" name="Amazonia" class="MapRegions" style="background-image: url(&quot;project://database/Assets/_Main/Sprites/RegionAmazonia.png?fileID=2800000&amp;guid=4d7e160e1831e964ca81695734ded4c7&amp;type=3#RegionAmazonia&quot;); background-color: rgba(255, 255, 255, 0); top: 48.3%; left: 20%; width: 77%; height: 38%;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
